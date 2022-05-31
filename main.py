@@ -1,3 +1,4 @@
+from algoritmos.bubbleSort import bubble_sort_menu
 from algoritmos.selectionSort import selection_sort_menu
 from algoritmos.insertionSort import insertion_sort_menu
 from algoritmos.mergeSort import merge_sort_menu
@@ -5,13 +6,15 @@ from algoritmos.quickSort import quick_sort_menu
 
 if __name__ == "__main__":
     op = 1
-    while(op != 0):
+    while(op != '0'):
         print("╵-----------------------╵")
         print("╵ Escolha um algoritimo ╵")
         print("╵ 1 - Selection Sort    ╵")
         print("╵ 2 - Insertion Sort    ╵")
         print("╵ 3 - Merge Sort        ╵")
         print("╵ 4 - Quick Sort        ╵")
+        print("╵ 5 - Bubble Sort       ╵")
+        print("╵ 0 - Sair              ╵")
         print("╵-----------------------╵\n")
         op = input()
 
@@ -23,7 +26,8 @@ if __name__ == "__main__":
             merge_sort_menu()
         if op == '4':
             quick_sort_menu()
-
+        if op == '5':
+            bubble_sort_menu()
 
 #insert sort [x]
 #select sort [x]
