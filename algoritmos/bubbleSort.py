@@ -2,7 +2,8 @@ from re import T
 from timeit import default_timer as timer
 from get_numbers import get_cem, get_Mil, get_dezMil, get_vinteMil, get_cinquentaMil, get_cemMil, get_duzentosMil, get_quinhetosMil, get_umMilhao, get_doisMilhao, get_cincoMilhao
 
-
+# melhor caso é O(n)
+# pior caso O(n^2)
 def bubble_sort(List, n):
     for i in range(n - 1):
         for j in range(n - 1):
