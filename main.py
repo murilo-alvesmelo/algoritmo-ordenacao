@@ -33,4 +33,4 @@ if __name__ == "__main__":
 #select sort [x]
 #merge sort [x]
 #quick sort [x]
-#bubble sort []  
+#bubble sort [x]  
