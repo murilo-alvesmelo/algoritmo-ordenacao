@@ -37,10 +37,10 @@ def particao(List, inicio, final):
     return i
 
 def quick_sort_menu():
-    
+    print('╵--------Quick Sort-------------╵')
     print('╵----Selecione a quantidade-----╵')
     print('1 - cem\n2 - mil\n3 - dezMil\n4 - vinteMil\n5 - cinquentaMil\n6 - cemMil\n7 - duzentosMil\n8 - quinhetosMil\n9 - umMilhao\n10 - doisMilhoes\n11 - cincoMilhoes')
-    print("╵------------------------------╵")
+    print("╵-------------------------------╵")
     
     op = input()
     if op == '1':

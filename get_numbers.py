@@ -1,6 +1,9 @@
 
+from turtle import st
+
+
 def get_cem():
-    f = open('./listas/cem.txt', 'r')
+    f = open('./listas/aleatorios/cem.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -9,7 +12,7 @@ def get_cem():
     return numeros
 
 def get_Mil():
-    f = open('./listas/mil.txt', 'r')
+    f = open('./listas/aleatorios/mil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -18,7 +21,7 @@ def get_Mil():
     return numeros
 
 def get_dezMil():
-    f = open('./listas/dezMil.txt', 'r')
+    f = open('./listas/aleatorios/dezMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -27,7 +30,7 @@ def get_dezMil():
     return numeros
 
 def get_vinteMil():
-    f = open('./listas/vinteMil.txt', 'r')
+    f = open('./listas/aleatorios/vinteMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -36,7 +39,7 @@ def get_vinteMil():
     return numeros
 
 def get_cinquentaMil():
-    f = open('./listas/cinquentaMil.txt', 'r')
+    f = open('./listas/aleatorios/cinquentaMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -45,7 +48,7 @@ def get_cinquentaMil():
     return numeros
 
 def get_cemMil():
-    f = open('./listas/cemMil.txt', 'r')
+    f = open('./listas/aleatorios/cemMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -54,7 +57,7 @@ def get_cemMil():
     return numeros
 
 def get_duzentosMil():
-    f = open('./listas/duzentosMil.txt', 'r')
+    f = open('./listas/aleatorios/duzentosMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -62,7 +65,7 @@ def get_duzentosMil():
     f.close()
     return numeros
 def get_quinhetosMil():
-    f = open('./listas/quinhetosMil.txt', 'r')
+    f = open('./listas/aleatorios/quinhentosMil.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -70,7 +73,7 @@ def get_quinhetosMil():
     f.close()
     return numeros
 def get_umMilhao():
-    f = open('./listas/umMilhao.txt', 'r')
+    f = open('./listas/aleatorios/umMilhao.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -78,7 +81,7 @@ def get_umMilhao():
     f.close()
     return numeros
 def get_doisMilhao():
-    f = open('./listas/doisMilhoes.txt', 'r')
+    f = open('./listas/aleatorios/doisMilhoes.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:
@@ -86,7 +89,7 @@ def get_doisMilhao():
     f.close()
     return numeros
 def get_cincoMilhao():
-    f = open('./listas/cincoMilhoes.txt', 'r')
+    f = open('./listas/aleatorios/cincoMilhoes.txt', 'r')
     numeros = []
     n = f.read().split(' ')
     for x in n:

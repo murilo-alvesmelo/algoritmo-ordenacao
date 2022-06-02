@@ -9,25 +9,25 @@ if __name__ == "__main__":
     while(op != '0'):
         print("╵-----------------------╵")
         print("╵ Escolha um algoritimo ╵")
-        print("╵ 1 - Selection Sort    ╵")
-        print("╵ 2 - Insertion Sort    ╵")
-        print("╵ 3 - Merge Sort        ╵")
-        print("╵ 4 - Quick Sort        ╵")
-        print("╵ 5 - Bubble Sort       ╵")
+        print("╵ 1 - Insertion Sort    ╵")
+        print("╵ 2 - Selection Sort    ╵")
+        print("╵ 3 - Bubble Sort       ╵")
+        print("╵ 4 - Merge Sort        ╵")
+        print("╵ 5 - Quick Sort        ╵")
         print("╵ 0 - Sair              ╵")
         print("╵-----------------------╵\n")
         op = input()
 
         if op == '1':
-            selection_sort_menu()
-        if op == '2':
             insertion_sort_menu()
+        if op == '2':
+            selection_sort_menu()
         if op == '3':
-            merge_sort_menu()
-        if op == '4':
-            quick_sort_menu()
-        if op == '5':
             bubble_sort_menu()
+        if op == '4':
+            merge_sort_menu()
+        if op == '5':
+            quick_sort_menu()
 
 #insert sort [x]
 #select sort [x]
